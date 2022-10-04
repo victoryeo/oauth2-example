@@ -15,6 +15,7 @@ const app = express();
 app.oauth = oAuth2Server({
     model: oAuthService,
     grants: ["password"],
+    accessTokenLifetime: 90 * 90,
     debug: true,
 });
 
