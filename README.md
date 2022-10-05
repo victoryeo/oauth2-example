@@ -1,4 +1,4 @@
-This is an OAuth2 server example using node-oauth2-server.
+This is an OAuth2 server example using node-oauth2-server. It uses the password grant type.
 
 ## run the program 
 node index.js
